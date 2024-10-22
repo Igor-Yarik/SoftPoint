@@ -1,0 +1,114 @@
+header {
+    margin-top: 35px;
+    padding-right: 218px;
+    padding-left: 227px;
+}
+
+.header__navigation {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #24DC9F;
+    text-transform: uppercase;
+    padding-left: 32px;
+    
+    &::before {
+        position: absolute;
+        content: url('');
+        top: 13px;
+        left: 43px;
+        width: 19px;
+        height: 2px;  
+        border-radius: 56px;   
+        rotate: 310deg;       
+        background-color: #FEDF8B;
+        box-shadow: -4px 1px 80px 0px #F6D887B2;
+    }
+
+    &::after {
+        position: absolute;
+        content: url('');
+        top: 13px;
+        left: 97px;
+        width: 19px;
+        height: 2px;  
+        border-radius: 56px;   
+        rotate: 310deg;       
+        background-color: #FEDF8B;
+        box-shadow: -4px 1px 80px 0px #F6D887B2;
+    }
+
+    &_name {
+
+        &::before {
+            position: absolute;
+            content: url('');
+            top: 0px;
+            left: 0px;
+            width: 26px;
+            height: 26px;
+            background: linear-gradient(176.15deg, #8EE7CA 19.68%, #2FEEAF 96.85%);
+            border-radius: 56px;
+            box-shadow: 0px 4px 70px 0px #9BD7C3CC;
+        }
+            
+        &::after {
+            position: absolute;
+            content: url('');
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            background-color: #FFFFFF;
+            border-radius: 56px;
+            box-shadow: 0px 1px 1px 0px #051F1733;
+        }
+    }
+}
+
+.navigation {
+
+    &_link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #021206;
+        opacity: 50%;
+    }
+    
+    &_link:nth-child(1) {
+        margin-right: 53px;
+    }
+
+    &_link:nth-child(2) {
+        margin-right: 37px;
+    }
+}
+
+.login {
+
+    &_link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #021206;
+        opacity: 70%;
+    }
+}
+
+.sign_link {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    background-color: #F44545;
+    opacity: 100%;
+    border-radius: 6px;
+    margin-left: 23px;
+}

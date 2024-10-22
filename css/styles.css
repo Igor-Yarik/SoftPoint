@@ -4,9 +4,19 @@
 }
 
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .title {
@@ -25,4 +35,126 @@ body {
   font-weight: 600;
   font-size: 21px;
   line-height: 31.5px;
+}
+
+header {
+  margin-top: 35px;
+  padding-right: 218px;
+  padding-left: 227px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #24DC9F;
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+.logo::before {
+  position: absolute;
+  content: url("");
+  top: 13px;
+  left: 43px;
+  width: 19px;
+  height: 2px;
+  border-radius: 56px;
+  rotate: 310deg;
+  background-color: #FEDF8B;
+  box-shadow: -4px 1px 80px 0px rgba(246, 216, 135, 0.6980392157);
+}
+.logo::after {
+  position: absolute;
+  content: url("");
+  top: 13px;
+  left: 97px;
+  width: 19px;
+  height: 2px;
+  border-radius: 56px;
+  rotate: 310deg;
+  background-color: #FEDF8B;
+  box-shadow: -4px 1px 80px 0px rgba(246, 216, 135, 0.6980392157);
+}
+.logo_name::before {
+  position: absolute;
+  content: url("");
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(176.15deg, #8EE7CA 19.68%, #2FEEAF 96.85%);
+  border-radius: 56px;
+  box-shadow: 0px 4px 70px 0px rgba(155, 215, 195, 0.8);
+}
+.logo_name::after {
+  position: absolute;
+  content: url("");
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius: 56px;
+  box-shadow: 0px 1px 1px 0px rgba(5, 31, 23, 0.2);
+}
+
+.navigation_link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #021206;
+  opacity: 50%;
+}
+.navigation_link:nth-child(1) {
+  margin-right: 53px;
+}
+.navigation_link:nth-child(2) {
+  margin-right: 37px;
+}
+
+.login_link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #021206;
+  opacity: 70%;
+}
+
+.sign_link {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  background-color: #F44545;
+  opacity: 100%;
+  border-radius: 6px;
+  margin-left: 23px;
+}
+
+.header__main {
+  display: flex;
+  margin-top: 157px;
+}
+.header__main_items {
+  width: 50%;
+}
+.header__main .title span {
+  color: #43DDAA;
+}
+.header__main_text {
+  width: 510px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33.6px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.header__main_text span {
+  font-weight: 500;
 }

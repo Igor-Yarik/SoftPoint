@@ -1,0 +1,17 @@
+.header__footer {
+    margin-top: 110px;
+    background-color: rgba(142, 230, 201, 0.1);
+
+    &_items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 55px;
+        padding-bottom: 55px;
+
+    }
+
+    &_img {
+
+    }
+}

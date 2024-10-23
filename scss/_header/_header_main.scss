@@ -4,6 +4,7 @@
 
     &_items {
         width: 50%;
+
     }
 
     .title span {
@@ -21,5 +22,59 @@
         & span {
             font-weight: 500;
         }
+    }
+
+    &_form {
+        position: relative;
+        margin-bottom: 36px;      
+    }
+
+    & input {
+        height: 65px;
+        width: 472px;
+        border: none;
+        border-radius: 6px;
+        padding-left: 24px;
+        padding-right: 145px; // 
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #021206;
+        opacity: 50%;
+        box-shadow: -5px 5px 45px 0px #02120626;
+    }
+
+    &_btn {
+        position: absolute;
+        top: 6px;
+        left: 350px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 31.5px;
+        color: #FFFFFF;
+        padding: 11px 33px 10px 33px;
+        background-color: #F44545;
+        border: none;
+        border-radius: 6px;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: #43DDAA;
+            transition: all 0.3s;
+            color: #021206;
+        }
+    }
+
+    &_store_img {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &_item {
+        /* width: 100%; */
+        
     }
 }

@@ -1,7 +1,5 @@
 header {
     margin-top: 35px;
-    padding-right: 218px;
-    padding-left: 227px;
 }
 
 .header__navigation {    
@@ -80,7 +78,7 @@ header {
         font-size: 18px;
         line-height: 27px;
         color: #021206;
-        opacity: 50%;
+        opacity: 50%;        
     }
     
     &_link:nth-child(1) {
@@ -89,7 +87,7 @@ header {
 
     &_link:nth-child(2) {
         margin-right: 37px;
-    }
+    }    
 }
 
 .login {
@@ -111,4 +109,11 @@ header {
     opacity: 100%;
     border-radius: 6px;
     margin-left: 23px;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #43DDAA;
+        transition: all 0.3s;
+        color: #021206;
+    }
 }

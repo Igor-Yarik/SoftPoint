@@ -19,6 +19,13 @@ a {
   text-decoration: none;
 }
 
+.container {
+  padding-right: 218px;
+  padding-left: 227px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .title {
   font-weight: 600;
   font-size: 54px;
@@ -35,12 +42,11 @@ a {
   font-weight: 600;
   font-size: 21px;
   line-height: 31.5px;
+  opacity: 70%;
 }
 
 header {
   margin-top: 35px;
-  padding-right: 218px;
-  padding-left: 227px;
 }
 
 .header__navigation {
@@ -135,6 +141,12 @@ header {
   opacity: 100%;
   border-radius: 6px;
   margin-left: 23px;
+  transition: all 0.3s;
+}
+.sign_link:hover {
+  background-color: #43DDAA;
+  transition: all 0.3s;
+  color: #021206;
 }
 
 .header__main {
@@ -157,4 +169,87 @@ header {
 }
 .header__main_text span {
   font-weight: 500;
+}
+.header__main_form {
+  position: relative;
+  margin-bottom: 36px;
+}
+.header__main input {
+  height: 65px;
+  width: 472px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 24px;
+  padding-right: 145px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #021206;
+  opacity: 50%;
+  box-shadow: -5px 5px 45px 0px rgba(2, 18, 6, 0.1490196078);
+}
+.header__main_btn {
+  position: absolute;
+  top: 6px;
+  left: 350px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #FFFFFF;
+  padding: 11px 33px 10px 33px;
+  background-color: #F44545;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.header__main_btn:hover {
+  background-color: #43DDAA;
+  transition: all 0.3s;
+  color: #021206;
+}
+.header__main_store_img {
+  margin-right: 30px;
+}
+.header__main_store_img:last-child {
+  margin-right: 0;
+}
+.header__main_item {
+  /* width: 100%; */
+}
+
+.header__footer {
+  margin-top: 110px;
+  background-color: rgba(142, 230, 201, 0.1);
+}
+.header__footer_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.main__complete {
+  margin-top: 110px;
+}
+.main__complete_item {
+  position: relative;
+  width: 282px;
+  height: 290px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 65px 0px rgba(65, 77, 68, 0.1490196078);
+  padding: 35px;
+  /* &_img::before {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 20px;
+      top: 0;
+      left: 0;
+      background-color: aqua;           
+
+  } */
+}
+.main__complete_item .subtitle {
+  padding-top: 25px;
+  padding-bottom: 9px;
 }
